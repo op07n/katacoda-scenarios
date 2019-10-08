@@ -1,0 +1,27 @@
+{
+  "title": "Node-RED Playground for development branch",
+  "description": "Node-RED Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "Node-RED", "port": 1880}],
+    "uilayout": "iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 1880
+  }
+}
