@@ -2,8 +2,14 @@
   "title": "n8n Playground for development branch",
   "description": "n8n Playground for development branch",
   "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
     "intro": {
-        "text": "",
+        "text": "intro.md",
         "code": "foreground.sh",
         "credits": ""
     }
