@@ -1,2 +1,2 @@
-sudo npm install -g --unsafe-perm n8n@next
+sudo npm install -g --unsafe-perm n8n
 n8n
