@@ -1,0 +1,21 @@
+{
+  "title": "n8n Playground for development branch",
+  "description": "n8n Playground for development branch",
+  "details": {
+    "intro": {
+        "text": "",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "n8n", "port": 5678}],
+    "uilayout": "iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 5678
+  }
+}
