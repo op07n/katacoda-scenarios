@@ -1,0 +1,27 @@
+{
+  "title": "create-nw-react-app Playground for development branch",
+  "description": "n8n Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "n8n", "port": 8080}],
+    "uilayout": "iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 8080
+  }
+}
