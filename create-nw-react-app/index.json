@@ -16,12 +16,12 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "n8n", "port": 8080}],
+    "dashboards": [{"name": "n8n", "port": 3000}],
     "uilayout": "iframe",
     "hidefinish": true
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 8080
+    "port": 3000
   }
 }
