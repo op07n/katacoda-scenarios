@@ -16,8 +16,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [
-      "name": "create-nw-react-app", "port": 3000}],
+      "dashboards": [{"name": "vue-element-admin", "port": 3000}],
     "uilayout": "terminal-iframe",
     "hidefinish": true
   },
