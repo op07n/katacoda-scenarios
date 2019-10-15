@@ -17,9 +17,9 @@
   "environment": {
     "showdashboard": true,
      "hideintro": true,
-     "hidefinish": true,
+ 
     "dashboards": [{"name": "vue-element-admin", "port": 9527}],
-    "uilayout": "terminal-iframe-split",
+    "uilayout": "terminal-terminal",
     "hidefinish": true
   },
   "backend": {
