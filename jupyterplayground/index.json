@@ -1,0 +1,29 @@
+{
+  "title": "jupyter Playground for development branch",
+  "description": "jupyterplayground Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [
+        {"name": "jupyterplayground", "port": 3080},
+        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 3000
+  }
+}
