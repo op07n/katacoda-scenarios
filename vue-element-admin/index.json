@@ -19,7 +19,7 @@
      "hideintro": true,
  
     "dashboards": [{"name": "vue-element-admin", "port": 9527}],
-    "uilayout": "terminal-terminal",
+    "uilayout": "terminal-iframe",
     "hidefinish": true
   },
   "backend": {
