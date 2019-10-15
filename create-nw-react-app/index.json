@@ -17,7 +17,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "create-nw-react-app", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com, "port": 3000"}],
+        {"name": "create-nw-react-app", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com}],
     "uilayout": "terminal-iframe",
     "hidefinish": true
   },
