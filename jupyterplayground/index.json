@@ -17,8 +17,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [
-        {"name": "jupyterplayground", "port": 3080},
-        {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
+           {"name": "Placeholder", "href": "https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com"}],
     "uilayout": "terminal-iframe",
     "hidefinish": true
   },
