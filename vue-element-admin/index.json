@@ -17,7 +17,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "vue-element-admin", "port": 9527}],
-    "uilayout": "iframe",
+    "uilayout": "terminal-iframe",
     "hidefinish": true
   },
   "backend": {
