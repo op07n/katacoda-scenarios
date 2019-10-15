@@ -1,5 +1,5 @@
 sudo git clone https://github.com/naviapps/create-nw-react-app.git
 sudo cd create-nw-react-app/
-sudo npx create-nw-react-app my-app
+sudo yarn create nw-react-app my-app
 sudo cd my-app/
 sudo yarn start
