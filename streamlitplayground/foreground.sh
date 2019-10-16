@@ -11,7 +11,6 @@ email = \"your-email@domain.com\"\n\
 echo "\
 [server]\n\
 headless = true\n\
-port = $PORT\n\
 " > ~/.streamlit/config.toml
 
 
