@@ -11,6 +11,7 @@ email = \"your-email@domain.com\"\n\
 echo "\
 [server]\n\
 enableCORS = false\n\
+gatherUsageStats = false\n\
 headless = true\n\
 " > ~/.streamlit/config.toml
 
