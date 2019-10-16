@@ -1,0 +1,27 @@
+{
+  "title": "streamlit Playground for development branch",
+  "description": "streamlit Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+      "dashboards": [{"name": "create-nw-react-app", "port": 8501}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 8501
+  }
+}
