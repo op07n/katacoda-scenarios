@@ -17,4 +17,6 @@ cd /root/home \
   && cd .. \
   && rm -rf boost-docker-test  
   
-  
+BoostTest -h
+
+BoostTest -v 1234
