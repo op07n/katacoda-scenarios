@@ -1,0 +1,27 @@
+{
+  "title": "deepstream_flight_tracker Playground for development branch",
+  "description": "deepstream_flight_tracker Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "deepstream_flight_tracker", "port": 6020}],
+    "uilayout": "iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 6020
+  }
+}
