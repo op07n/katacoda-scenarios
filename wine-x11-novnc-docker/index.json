@@ -1,0 +1,29 @@
+{
+  "title": "wine-x11-novnc-docker Playground for development branch",
+  "description": "wine-x11-novnc-docker Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+     "hideintro": true,
+ 
+    "dashboards": [{"name": "wine-x11-novnc-docker", "port": 9527}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 9527
+  }
+}
