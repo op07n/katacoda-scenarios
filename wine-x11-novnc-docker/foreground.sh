@@ -5,7 +5,7 @@ wget -O - https://github.com/novnc/noVNC/archive/v1.1.0.tar.gz | tar -xzv -C /ro
 wget -O - https://github.com/novnc/websockify/archive/v0.8.0.tar.gz | tar -xzv -C /root/ && mv /root/websockify-0.8.0 /root/novnc/utils/websockify; \
 # https://github.com/paimpozhil/docker-novnc/blob/master/startup.sh ; \
 export DISPLAY=:1 ; \
-Xvfb :1 -screen 0 1600x900x16 & ; \
+Xvfb :1 -screen 0 1600x900x16 & ;\
 sleep 5 ; \
 openbox-session& ; \
 x11vnc -display :1 -nopw -listen localhost -xkb -ncache 10 -ncache_cr -forever & ; \
