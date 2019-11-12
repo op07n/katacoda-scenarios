@@ -10,4 +10,4 @@ echo '    -device ide-hd,bus=sata.4,drive=SystemDisk \' >> basic.sh; \
 export SYSTEM_DISK=MyDisk.qcow2; \
 export HEADLESS=1; \
 export CPUS=2; \
-./headless.sh; \
+./headless.sh;
