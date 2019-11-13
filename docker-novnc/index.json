@@ -1,0 +1,29 @@
+{
+  "title": "docker-novnc Playground for development branch",
+  "description": "docker-novnc Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+     "hideintro": true,
+ 
+    "dashboards": [{"name": "docker-novnc", "port": 6080}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "zerodivide1/docker-novnc",
+    "port": 6080
+  }
+}
