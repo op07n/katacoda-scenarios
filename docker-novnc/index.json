@@ -23,7 +23,7 @@
     "hidefinish": true
   },
   "backend": {
-    "imageid": "zerodivide1/docker-novnc",
+    "imageid": "ubuntu",
     "port": 6080
   }
 }
