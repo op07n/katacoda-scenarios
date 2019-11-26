@@ -1,0 +1,26 @@
+{
+  "title": "coole-radar playground",
+  "description": "coole-radar playground",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+    "dashboards": [{"name": "coole-radar", "port": 1880}],
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": 5901
+  }
+}
