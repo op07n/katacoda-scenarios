@@ -1,0 +1,29 @@
+{
+  "title": "rpi-novnc Playground for development branch",
+  "description": "rpi-novnc Playground for development branch",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+     "hideintro": true,
+ 
+    "dashboards": [{"name": "rpi-novnc", "port": 8080}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu1804",
+    "port": 8080
+  }
+}
