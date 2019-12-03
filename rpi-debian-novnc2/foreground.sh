@@ -1,1 +1,1 @@
-sudo npm install -g --unsafe-perm node-red@next
+docker run --rm --privileged hypriot/qemu-register; docker run --rm -it -p 8080:8080 op07n/rpidebiannovnc:part1;
