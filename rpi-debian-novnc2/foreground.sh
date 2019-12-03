@@ -1,1 +1,1 @@
-ls
+sudo npm install -g --unsafe-perm node-red@next
