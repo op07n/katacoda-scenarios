@@ -1,6 +1,6 @@
 {
-  "title": "rpi-debian-novnc Playground for development branch",
-  "description": "rpi-debian-novnc Playground for development branch",
+  "title": "rpi-debian-novnc2 Playground for development branch",
+  "description": "rpi-debian-novnc2 Playground for development branch",
   "details": {
     "steps": [
       {
@@ -16,7 +16,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "rpi-debian-novnc", "port": 8080}],
+    "dashboards": [{"name": "rpi-debian-novnc2", "port": 8080}],
     "uilayout": "terminal-iframe",
     "hidefinish": true
   },
