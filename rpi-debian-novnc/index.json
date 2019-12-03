@@ -17,7 +17,7 @@
   "environment": {
     "showdashboard": true,
     "dashboards": [{"name": "rpi-debian-novnc", "port": 8080}],
-    "uilayout": "iframe",
+    "uilayout": "terminal-iframe",
     "hidefinish": true
   },
   "backend": {
