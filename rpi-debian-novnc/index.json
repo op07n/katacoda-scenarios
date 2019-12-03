@@ -16,7 +16,7 @@
   },
   "environment": {
     "showdashboard": true,
-    "dashboards": [{"name": "Node-RED", "port": 8080}],
+    "dashboards": [{"name": "rpi-debian-novnc", "port": 8080}],
     "uilayout": "iframe",
     "hidefinish": true
   },
