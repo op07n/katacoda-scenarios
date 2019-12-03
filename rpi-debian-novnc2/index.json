@@ -16,12 +16,14 @@
   },
   "environment": {
     "showdashboard": true,
+     "hideintro": true,
+ 
     "dashboards": [{"name": "rpi-debian-novnc2", "port": 8080}],
     "uilayout": "terminal-iframe",
     "hidefinish": true
   },
   "backend": {
-    "imageid": "ubuntu",
+    "imageid": "ubuntu1804",
     "port": 8080
   }
 }
