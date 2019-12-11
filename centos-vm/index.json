@@ -1,6 +1,6 @@
 {
-  "title": "_Sandbox",
-  "description": "Test something",
+  "title": "centos-vm",
+  "description": "test centos-vm",
   "difficulty": "beginner",
   "time": "60 minutes",
   "details": {
