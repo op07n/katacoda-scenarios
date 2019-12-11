@@ -1,0 +1,28 @@
+{
+  "title": "alpine-vm",
+  "description": "test alpine-vm",
+  "difficulty": "beginner",
+  "time": "60 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "env-init.sh"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal",
+    "uieditorpath": "/root",
+    "hideintro": false,
+    "hidefinish": true,
+    "uimessage1": "\u001b[32mYour Interactive Bash Terminal. A safe place to learn and execute commands.\u001b[m\r\n"
+  },
+  "backend": {
+    "imageid": "alpine-vm"
+  }
+}
