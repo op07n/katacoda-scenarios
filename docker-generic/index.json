@@ -23,7 +23,7 @@
     "hidefinish": true
   },
   "backend": {
-    "imageid": "ubuntu1804",
+    "imageid": "ubuntu1604",
     "port": 9527
   }
 }
