@@ -18,12 +18,12 @@
     "showdashboard": true,
      "hideintro": true,
  
-    "dashboards": [{"name": "vue-element-admin", "port": 9527}],
+    "dashboards": [{"name": "vue-element-admin", "port": 9526}],
     "uilayout": "terminal-iframe",
     "hidefinish": true
   },
   "backend": {
     "imageid": "ubuntu",
-    "port": 9527
+    "port": 9526
   }
 }
