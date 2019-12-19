@@ -1,0 +1,29 @@
+{
+  "title": "novnc_nwjs test",
+  "description": "novnc_nwjs test",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+     "hideintro": true,
+ 
+    "dashboards": [{"name": "novnc_nwjs", "port": 3000}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu1804",
+    "port": 3000
+  }
+}
