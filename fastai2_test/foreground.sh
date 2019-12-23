@@ -6,6 +6,7 @@ conda config --set always_yes yes --set changeps1 no ; \
 conda update -q conda; \
 conda info -a; \
 conda install -c fastai -c pytorch fastai; \
+pip3 install packaging; \
 git clone https://github.com/fastai/fastai2; \
 cd fastai2; \
 pip3 install -e .[dev]
