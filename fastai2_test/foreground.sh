@@ -9,4 +9,5 @@ conda install -c fastai -c pytorch fastai; \
 pip3 install packaging; \
 git clone https://github.com/fastai/fastai2; \
 cd fastai2; \
-pip3 install -e .[dev]
+pip3 install -e .[dev]; \
+pip3 install ipykernel
