@@ -1,0 +1,29 @@
+{
+  "title": "fastai2_test",
+  "description": "fastai2_test",
+  "details": {
+    "steps": [
+      {
+        "title": "",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+        "text": "intro.md",
+        "code": "foreground.sh",
+        "credits": ""
+    }
+  },
+  "environment": {
+    "showdashboard": true,
+     "hideintro": true,
+ 
+    "dashboards": [{"name": "fastai2_test", "port": 8080}],
+    "uilayout": "terminal-iframe",
+    "hidefinish": true
+  },
+  "backend": {
+    "imageid": "ubuntu1804",
+    "port": 8080
+  }
+}
