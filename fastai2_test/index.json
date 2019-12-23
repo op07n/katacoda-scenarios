@@ -18,12 +18,12 @@
     "showdashboard": true,
      "hideintro": true,
  
-    "dashboards": [{"name": "fastai2_test", "port": 8080}],
+    "dashboards": [{"name": "fastai2_test", "port": 3000}],
     "uilayout": "terminal-iframe",
     "hidefinish": true
   },
   "backend": {
     "imageid": "ubuntu1804",
-    "port": 8080
+    "port": 3000
   }
 }
