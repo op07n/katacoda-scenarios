@@ -10,4 +10,6 @@ pip3 install packaging; \
 git clone https://github.com/fastai/fastai2; \
 cd fastai2; \
 pip3 install -e .[dev]; \
-pip3 install ipykernel
+pip3 install ipykernel; \
+pip3 install jupyterlab; \
+jupyter lab --port=3000 --ip=0.0.0.0 --no-browser --allow-root
